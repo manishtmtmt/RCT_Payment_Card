@@ -1,0 +1,42 @@
+.card {
+  width: 400px;
+  margin: auto;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card > div:nth-child(1) {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.box2 {
+  margin-right: -30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.imgbox {
+  width: 200px;
+  height: 100px;
+  margin-top: 10px;
+}
+
+.subheading {
+  background-color: black;
+  color: white;
+  width: 90px;
+  padding: 5px 8px;
+  text-align: center;
+}
+
+.logo {
+  width: 50%;
+}
+
+.arrow {
+  width: 50px;
+  margin-bottom: 20px;
+}
